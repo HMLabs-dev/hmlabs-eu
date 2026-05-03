@@ -20,6 +20,12 @@ const socialLinks = [
     label: "Codeberg",
   },
   {
+    href: "https://instagram.com/henrymmey",
+    iconName: "instagram",
+    label: "Instagram",
+  },
+
+  {
     href: "https://modrinth.com/user/HenryMMey",
     iconName: "modrinth",
     label: "Modrinth",

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import SiteHeader from "@/components/site-header";
+import SiteChrome from "@/components/site-chrome";
 import { ThemeModeProvider } from "@/components/theme-mode-provider";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -128,24 +127,11 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
-      <head>
-        <Script id="theme-init" strategy="beforeInteractive">
-          {themeInitScript}
-        </Script>
-        <Script
-          id="person-json-ld"
-          strategy="beforeInteractive"
-          type="application/ld+json"
-        >
-          {JSON.stringify(jsonLd)}
-        </Script>
-      </head>
+      <head />
       <body className="min-h-full flex flex-col">
         <Analytics />
         <ThemeModeProvider>
-          <SiteHeader />
-
-          <div className="h-28 md:h-32" aria-hidden="true" />
+          <SiteChrome />
 
           {children}
         </ThemeModeProvider>

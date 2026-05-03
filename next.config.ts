@@ -5,6 +5,11 @@ const withMDX = createMDX();
 
 const nextConfig: NextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
+  turbopack: {
+    resolveAlias: {
+      "@": "./src",
+    },
+  },
 };
 
 export default withMDX(nextConfig);
