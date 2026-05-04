@@ -6,6 +6,12 @@ export function middleware(request: NextRequest) {
     hostname === "jumpstone.is-cool.dev" ||
     hostname === "jumpstone-dev.vercel.app";
 
+  if (hostname === "connect.henrymer.de") {
+    const redirectUrl = request.nextUrl.clone();
+    redirectUrl.pathname = "/links";
+    return NextResponse.redirect(redirectUrl);
+  }
+
   if (!shouldRewriteToSubsite) {
     return NextResponse.next();
   }
