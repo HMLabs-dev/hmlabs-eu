@@ -19,6 +19,8 @@ const mdxImporters = {
   "akku-craft": () => import("@/content/subsite/projects/akku-craft.mdx"),
   "link-shortener": () =>
     import("@/content/subsite/projects/link-shortener.mdx"),
+  "awesome-ai-for-beginners": () =>
+    import("@/content/subsite/projects/awesome-ai-for-beginners.mdx"),
 } as const;
 
 export function getSubsiteProjects(

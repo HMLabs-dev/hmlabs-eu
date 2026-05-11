@@ -35,7 +35,7 @@ const projectInfos: ProjectInfo[] = [
       },
       { label: "GitHub", href: "https://github.com/jumpstone-gaming" },
     ],
-    priority: 2,
+    priority: 4,
     publishedAt: "2026-03-09",
   },
   {
@@ -63,8 +63,27 @@ const projectInfos: ProjectInfo[] = [
         href: "https://github.com/henrymmey/link-shortener",
       },
     ],
-    priority: 3,
+    priority: 4,
     publishedAt: "2026-04-01",
+  },
+  {
+    slug: "awesome-ai-for-beginners",
+    title: "Awesome AI for Beginners",
+    description:
+      "A curated list of resources for learning artificial intelligence.",
+    tags: ["AI", "Awesome List"],
+    links: [
+      {
+        label: "Repository",
+        href: "https://github.com/henrymmey/awesome-ai-for-beginners",
+      },
+      {
+        label: "Website",
+        href: "https://aiforbeginners.henrymeyer.de",
+      },
+    ],
+    priority: 2,
+    publishedAt: "2026-05-10",
   },
 ];
 
