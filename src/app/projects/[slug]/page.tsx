@@ -38,14 +38,14 @@ export async function generateMetadata({
 
   return {
     title: {
-      absolute: `${project.title} | JumpStone Dev`,
+      absolute: `${project.title} | HenryMM`,
     },
     description: project.description,
     alternates: {
       canonical: canonicalUrl,
     },
     openGraph: {
-      title: `${project.title} | JumpStone Dev`,
+      title: `${project.title} | HenryMM`,
       description: project.description,
       type: "article",
       url: canonicalUrl,
@@ -60,7 +60,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${project.title} | JumpStone Dev`,
+      title: `${project.title} | HenryMM`,
       description: project.description,
       images: [`${baseUrl}/og-image.png`],
     },

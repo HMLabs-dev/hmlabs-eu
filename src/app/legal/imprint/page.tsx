@@ -3,7 +3,7 @@ import ImprintContent from "@/content/legal/imprint.mdx";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Imprint | JumpStone",
+  title: "Imprint",
   description: "Imprint and legal notice for the JumpStone website.",
   robots: {
     index: true,

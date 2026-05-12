@@ -3,14 +3,14 @@ import PrivacyContent from "@/content/legal/privacy.mdx";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | JumpStone",
+  title: "Privacy Policy",
   description: "Privacy policy for the JumpStone website.",
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Privacy Policy | JumpStone",
+    title: "Privacy Policy",
     description: "Privacy policy for the JumpStone website.",
     type: "website",
     url: "https://jumpstone4477.de/legal/privacy",

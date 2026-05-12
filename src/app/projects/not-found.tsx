@@ -19,16 +19,16 @@ export default function ProjectsNotFound() {
       <section className="mb-8 rounded-base border border-border/30 bg-secondary-background p-6 shadow-sm">
         <div className="flex flex-wrap gap-2">
           <Link
-            href="/subsite#projects"
+            href="/projects"
             className="inline-flex items-center rounded-base border border-border/30 bg-main px-3 py-1.5 text-sm font-heading text-main-foreground shadow-sm transition-opacity hover:opacity-80"
           >
             Back to Projects
           </Link>
           <Link
-            href="/subsite"
+            href="/"
             className="inline-flex items-center rounded-base border border-border/30 bg-background px-3 py-1.5 text-sm font-heading text-foreground shadow-sm transition-opacity hover:opacity-80"
           >
-            Go to Subsite Home
+            Go to Home
           </Link>
         </div>
       </section>

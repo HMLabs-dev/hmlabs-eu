@@ -55,6 +55,23 @@ export default async function SiteFooter() {
                 {isSubsiteDomain ? (
                   <a
                     className="underline underline-offset-2"
+                    href={toMainDomain("/projects")}
+                  >
+                    Projects
+                  </a>
+                ) : (
+                  <Link
+                    className="underline underline-offset-2"
+                    href={toMainDomain("/projects")}
+                  >
+                    Projects
+                  </Link>
+                )}
+              </li>
+              <li>
+                {isSubsiteDomain ? (
+                  <a
+                    className="underline underline-offset-2"
                     href={toMainDomain("/links")}
                   >
                     Links

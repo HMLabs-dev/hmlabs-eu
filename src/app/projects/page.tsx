@@ -52,7 +52,7 @@ function SortButton({
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Projects | JumpStone Dev",
+    absolute: "Projects | HenryMM",
   },
 };
 
