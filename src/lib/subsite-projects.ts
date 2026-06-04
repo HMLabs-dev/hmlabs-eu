@@ -21,6 +21,7 @@ const mdxImporters = {
     import("@/content/subsite/projects/link-shortener.mdx"),
   "awesome-ai-for-beginners": () =>
     import("@/content/subsite/projects/awesome-ai-for-beginners.mdx"),
+  hmlabs: () => import("@/content/subsite/projects/hmlabs.mdx"),
 } as const;
 
 export function getSubsiteProjects(

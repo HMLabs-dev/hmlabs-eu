@@ -27,7 +27,7 @@ const projectInfos: ProjectInfo[] = [
     title: "JS Gaming",
     description:
       "Modpacks, resource packs, and technical tooling for Minecraft ecosystems.",
-    tags: ["Java", "Game Tooling", "Design"],
+    tags: ["Part of HMLabs", "Java", "Game Tooling", "Design"],
     links: [
       {
         label: "Modrinth",
@@ -63,7 +63,7 @@ const projectInfos: ProjectInfo[] = [
         href: "https://github.com/henrymmey/link-shortener",
       },
     ],
-    priority: 4,
+    priority: 5,
     publishedAt: "2026-04-01",
   },
   {
@@ -71,7 +71,7 @@ const projectInfos: ProjectInfo[] = [
     title: "Awesome AI for Beginners",
     description:
       "A curated list of resources for learning artificial intelligence.",
-    tags: ["AI", "Awesome List"],
+    tags: ["Part of HMLabs", "AI", "Awesome List"],
     links: [
       {
         label: "Repository",
@@ -82,8 +82,27 @@ const projectInfos: ProjectInfo[] = [
         href: "https://aiforbeginners.henrymeyer.de",
       },
     ],
-    priority: 2,
+    priority: 3,
     publishedAt: "2026-05-10",
+  },
+  {
+    slug: "hmlabs",
+    title: "HMLabs",
+    description:
+      "HMLabs is an independent developer collective focused on innovative open-source projects, digital tools, and high-performance server infrastructure.",
+    tags: ["Developers", "Projects"],
+    links: [
+      {
+        label: "Organization",
+        href: "https://github.com/HMLabs-dev",
+      },
+      {
+        label: "Website",
+        href: "https://hmlabs.eu",
+      },
+    ],
+    priority: 3,
+    publishedAt: "2026-06-04",
   },
 ];
 
