@@ -1,4 +1,3 @@
-import SiteFooter from "@/components/site-footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -154,8 +153,6 @@ export default function CodeOfConductPage() {
           Last Updated: April 2026
         </p>
       </article>
-
-      <SiteFooter />
     </main>
   );
 }

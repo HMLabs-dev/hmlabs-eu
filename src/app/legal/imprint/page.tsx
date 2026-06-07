@@ -1,4 +1,3 @@
-import SiteFooter from "@/components/site-footer";
 import ImprintContent from "@/content/legal/imprint.mdx";
 import type { Metadata } from "next";
 
@@ -34,8 +33,6 @@ export default function ImprintPage() {
           </div>
         </section>
       </article>
-
-      <SiteFooter />
     </main>
   );
 }

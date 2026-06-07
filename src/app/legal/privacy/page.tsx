@@ -1,4 +1,3 @@
-import SiteFooter from "@/components/site-footer";
 import PrivacyContent from "@/content/legal/privacy.mdx";
 import type { Metadata } from "next";
 
@@ -37,8 +36,6 @@ export default function PrivacyPage() {
           </div>
         </section>
       </article>
-
-      <SiteFooter />
     </main>
   );
 }

@@ -51,40 +51,6 @@ export default async function SiteFooter() {
                   </Link>
                 )}
               </li>
-              <li>
-                {isSubsiteDomain ? (
-                  <a
-                    className="underline underline-offset-2"
-                    href={toMainDomain("/projects")}
-                  >
-                    Projects
-                  </a>
-                ) : (
-                  <Link
-                    className="underline underline-offset-2"
-                    href={toMainDomain("/projects")}
-                  >
-                    Projects
-                  </Link>
-                )}
-              </li>
-              <li>
-                {isSubsiteDomain ? (
-                  <a
-                    className="underline underline-offset-2"
-                    href={toMainDomain("/links")}
-                  >
-                    Links
-                  </a>
-                ) : (
-                  <Link
-                    className="underline underline-offset-2"
-                    href={toMainDomain("/links")}
-                  >
-                    Links
-                  </Link>
-                )}
-              </li>
             </ul>
           </div>
 
@@ -164,48 +130,12 @@ export default async function SiteFooter() {
                   GitHub
                 </a>
               </li>
-              <li>
-                <a
-                  className="underline underline-offset-2"
-                  href="https://codeberg.org/henrymmey"
-                  target="_blank"
-                >
-                  Codeberg
-                </a>
-              </li>
-              <li>
-                <a
-                  className="underline underline-offset-2"
-                  href="https://instagram.com/henrymmey"
-                  target="_blank"
-                >
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a
-                  className="underline underline-offset-2"
-                  href="https://modrinth.com/user/HenryMMey"
-                  target="_blank"
-                >
-                  Modrinth
-                </a>
-              </li>
-              <li>
-                <a
-                  className="underline underline-offset-2"
-                  href="https://discord.gg/YWc9qb8TRP"
-                  target="_blank"
-                >
-                  Discord (Server)
-                </a>
-              </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-4 rounded-base border border-border/30 bg-main px-4 py-3 text-sm text-main-foreground">
-          HenryMM Website © 2025 - 2026 by Henry Meyer. Licensed under GPL-3.0.
+          © 2026 HMLabs. Code licensed under GPL-3.0.
         </div>
       </div>
     </footer>

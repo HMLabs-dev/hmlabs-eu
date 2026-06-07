@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import SiteChrome from "@/components/site-chrome";
+import SiteFooter from "@/components/site-footer";
 import { ThemeModeProvider } from "@/components/theme-mode-provider";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -133,7 +134,9 @@ export default function RootLayout({
         <ThemeModeProvider>
           <SiteChrome />
 
-          {children}
+          <div className="flex-1 flex flex-col">{children}</div>
+
+          <SiteFooter />
         </ThemeModeProvider>
       </body>
     </html>

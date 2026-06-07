@@ -14,26 +14,11 @@ const socialLinks = [
     iconName: "github",
     label: "GitHub",
   },
-  {
-    href: "https://codeberg.org/henrymmey",
-    iconName: "codeberg",
-    label: "Codeberg",
-  },
-  {
-    href: "https://instagram.com/henrymmey",
-    iconName: "instagram",
-    label: "Instagram",
-  },
-  {
-    href: "https://modrinth.com/user/HenryMMey",
-    iconName: "modrinth",
-    label: "Modrinth",
-  },
 ];
 
 export default function SiteHeader({
   logoSrc = "/logo.png",
-  siteName = "HenryMM",
+  siteName = "HMLabs",
 }: SiteHeaderProps) {
   const { effectiveMode } = useThemeMode();
   const [isCompact, setIsCompact] = useState(false);
@@ -95,22 +80,6 @@ export default function SiteHeader({
             aria-label="Primary"
             className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center gap-4 whitespace-nowrap"
           >
-            <a
-              href="/projects"
-              className={`text-foreground/80 transition-all duration-300 hover:text-foreground focus-visible:outline-none focus-visible:underline ${
-                isCompact ? "text-sm" : "text-base"
-              }`}
-            >
-              Projects
-            </a>
-            <a
-              href="/links"
-              className={`text-foreground/80 transition-all duration-300 hover:text-foreground focus-visible:outline-none focus-visible:underline ${
-                isCompact ? "text-sm" : "text-base"
-              }`}
-            >
-              Links
-            </a>
             <a
               href="/contact"
               className={`text-foreground/80 transition-all duration-300 hover:text-foreground focus-visible:outline-none focus-visible:underline ${

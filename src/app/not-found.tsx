@@ -2,15 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Compass, Home, Mail } from "lucide-react";
 
-import SiteFooter from "@/components/site-footer";
-
 export const metadata: Metadata = {
   title: "404 | JumpStone",
 };
 
 export default function NotFound() {
   return (
-    <main className="relative mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 md:px-8">
+    <main className="relative mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 md:px-8">
       <div className="flex flex-1 flex-col justify-center gap-8 py-12 md:py-16">
         <section className="rounded-base border border-border/30 bg-main p-6 text-main-foreground shadow-sm md:p-8">
           <p className="mb-3 inline-flex items-center gap-2 rounded-base border border-main-foreground/40 bg-main-foreground/10 px-3 py-1 text-xs font-heading">
@@ -104,8 +102,6 @@ export default function NotFound() {
           </article>
         </section>
       </div>
-
-      <SiteFooter />
     </main>
   );
 }

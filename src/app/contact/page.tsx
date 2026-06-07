@@ -1,4 +1,3 @@
-import SiteFooter from "@/components/site-footer";
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import Script from "next/script";
@@ -131,8 +130,6 @@ export default async function ContactPage() {
             )}
           </section>
         </article>
-
-        <SiteFooter />
       </main>
     </>
   );
