@@ -7,17 +7,17 @@ export const runtime = "edge";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with JumpStone. Contact information for software projects and collaborations, with privacy protection.",
+    "Get in touch with HMLabs. Contact information for software projects and collaborations, with privacy protection.",
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Contact JumpStone",
+    title: "Contact HMLabs",
     description:
-      "Get in touch for software projects, collaborations, and inquiries.",
+      "Get in touch with HMLabs. Contact information for software projects and collaborations, with privacy protection.",
     type: "website",
-    url: `${process.env.NEXT_PUBLIC_URL || "https://henrymeyer.de"}/contact`,
+    url: `${process.env.NEXT_PUBLIC_URL || "https://hmlabs.eu"}/contact`,
   },
 };
 

@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy for the JumpStone website.",
+  description: "Privacy policy for HMLabs.",
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
     title: "Privacy Policy",
-    description: "Privacy policy for the JumpStone website.",
+    description: "Privacy policy for HMLabs.",
     type: "website",
-    url: `${process.env.NEXT_PUBLIC_URL || "https://henrymeyer.de"}/legal/privacy`,
+    url: `${process.env.NEXT_PUBLIC_URL || "https://hmlabs.eu"}/legal/privacy`,
   },
 };
 

@@ -16,18 +16,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_URL || "https://henrymeyer.de";
+const baseUrl = process.env.NEXT_PUBLIC_URL || "https://hmlabs.eu";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "HenryMM",
-    template: "%s | HenryMM",
+    default: "HMLabs",
+    template: "%s | HMLabs",
   },
-  description:
-    "My personal portfolio, focused on what I build, what I can do, and the projects, tools, and technologies I work with.",
+  description: "About HMLabs website.",
   keywords: [
-    "personal portfolio",
+    "about",
     "developer",
     "software developer",
     "portfolio",
@@ -37,6 +36,8 @@ export const metadata: Metadata = {
     "gaming",
     "hardware",
     "JumpStone",
+    "HMLabs",
+    "Henry Meyer",
   ],
   robots: {
     index: true,
@@ -53,24 +54,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: baseUrl,
-    siteName: "Henry aka JumpStone",
-    title: "Henry aka JumpStone | Personal Portfolio & Projects",
-    description:
-      "A personal portfolio by Henry aka JumpStone about what I build, what I can do, and the technologies behind my projects.",
+    siteName: "HMLabs",
+    title: "HMLabs | About",
+    description: "About HMLabs website.",
     images: [
       {
         url: `${baseUrl}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Henry aka JumpStone personal portfolio",
+        alt: "HMLabs website",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Henry aka JumpStone | Personal Portfolio & Projects",
-    description:
-      "A personal portfolio by Henry aka JumpStone about what I build, what I can do, and the technologies behind my projects.",
+    title: "HMLabs | About",
+    description: "About HMLabs website.",
     images: [`${baseUrl}/og-image.png`],
   },
   alternates: {
@@ -113,8 +112,7 @@ export default function RootLayout({
     "@type": "Person",
     name: "Henry aka JumpStone",
     url: baseUrl,
-    description:
-      "Personal portfolio by Henry aka JumpStone showing projects, skills, and the technologies behind my work",
+    description: "About HMLabs website.",
     sameAs: [
       "https://github.com/jumpstone-gaming",
       "https://github.com/akku-craft",

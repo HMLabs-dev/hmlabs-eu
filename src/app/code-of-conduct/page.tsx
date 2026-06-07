@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Code of Conduct | JumpStone",
+  title: "Code of Conduct | HMLabs",
   description:
-    "Community guidelines for respectful and inclusive interaction across JumpStone spaces and projects.",
+    "Community guidelines for respectful and inclusive interaction across HMLabs spaces and projects.",
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Code of Conduct | JumpStone",
+    title: "Code of Conduct | HMLabs",
     description:
-      "Community guidelines for respectful and inclusive interaction across JumpStone spaces.",
+      "Community guidelines for respectful and inclusive interaction across HMLabs spaces.",
     type: "website",
-    url: `${process.env.NEXT_PUBLIC_URL || "https://henrymeyer.de"}/code-of-conduct`,
+    url: `${process.env.NEXT_PUBLIC_URL || "https://hmlabs.eu"}/code-of-conduct`,
   },
 };
 

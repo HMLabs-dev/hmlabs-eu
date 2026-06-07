@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Imprint",
-  description: "Imprint and legal notice for the JumpStone website.",
+  description: "Imprint and legal notice for HMLabs.",
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
-    title: "Imprint | JumpStone",
-    description: "Imprint and legal notice for the JumpStone website.",
+    title: "Imprint",
+    description: "Imprint and legal notice for HMLabs.",
     type: "website",
-    url: `${process.env.NEXT_PUBLIC_URL || "https://henrymeyer.de"}/legal/imprint`,
+    url: `${process.env.NEXT_PUBLIC_URL || "https://hmlabs.eu"}/legal/imprint`,
   },
 };
 
